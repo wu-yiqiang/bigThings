@@ -11,6 +11,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -25,7 +26,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -38,11 +40,19 @@
       <option name="presentableId" value="Default" />
       <updated>1609292441040</updated>
       <workItem from="1609292446768" duration="20000" />
-      <workItem from="1609292543170" duration="475000" />
+      <workItem from="1609292543170" duration="1930000" />
+      <workItem from="1609294785803" duration="1133000" />
+      <workItem from="1609295948364" duration="71000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="637" y="121" key="SettingsEditor" timestamp="1609295999904">
+      <screen x="0" y="39" width="1920" height="1005" />
+    </state>
+    <state x="637" y="121" key="SettingsEditor/0.39.1920.1005@0.39.1920.1005" timestamp="1609295999904" />
   </component>
 </project>
