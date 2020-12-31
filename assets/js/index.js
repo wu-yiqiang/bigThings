@@ -3,14 +3,18 @@ $(function () {
   
     getData()
     //绑定点击事件
+    var layer=layui.layer
     $("#exit").on("click",function () {
         //弹出层
-        layer.confirm('确定退出吗？', {icon: 3, title:'提示'}, function(index){
+      
+        layer.confirm('确定退出吗？', {icon: 3, title:'温馨提示'}, function(index){
             //do something
+            console.log("sdf");
             localStorage.removeItem("token")
             location.href="/login.html"
             layer.close(index);
         });
+        
     })
 })
 
