@@ -37,7 +37,7 @@ $(function () {
         }
         $.ajax({
             method: "POST",
-            url: "api/reguser",
+            url: "/api/reguser",
             data: datas,
             success: function (res) {
                 //注册失败
@@ -64,14 +64,15 @@ $(function () {
         }
         $.ajax({
             method: "POST",
-            url: "api/login",
+            url: "/api/login",
             data: postdata,
             success: function (res) {
                 console.log(res);
                 if (res.status != 0) return layer.msg("登录失败！！！")
                 
                 layer.msg("登录成功！！！")
-                localStorage.setItem("token",JSON.stringify(res.token))
+                localStorage.setItem("token", JSON.stringify(res.token))
+                console.log("sad");
                 location.href="/index.html"
             }
         })
