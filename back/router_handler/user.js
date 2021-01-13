@@ -39,7 +39,7 @@ exports.login=(req,res)=>{
 	const selectsql="select * from ev_users where username=?"
 	db.query(selectsql,userinfo.username,function (err,results) {
 		if(err) return res.cc(err)
-		if(results.length!==1) return res.cc("登陆失败！！！")
+		if(results.length!==1) return res.cc("登陆写入失败！！！")
 		const compareResult=bcrypt.compareSync(userinfo.password,results[0].password)
 		if(!compareResult) return  res.cc("登录失败!!!")
 		return res.cc("login ok")

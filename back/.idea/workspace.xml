@@ -49,7 +49,7 @@
       <workItem from="1610501037166" duration="1838000" />
       <workItem from="1610502913565" duration="7143000" />
       <workItem from="1610515864641" duration="10992000" />
-      <workItem from="1610533152590" duration="1261000" />
+      <workItem from="1610533152590" duration="2605000" />
     </task>
     <servers />
   </component>
@@ -65,5 +65,21 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="686" y="250" key="FileChooserDialogImpl/0.30.1920.1050@0.30.1920.1050" timestamp="1610533192454" />
+    <state width="931" height="261" key="GridCell.Tab.0.bottom" timestamp="1610535747592">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="931" height="261" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1610535747592" />
+    <state width="931" height="261" key="GridCell.Tab.0.center" timestamp="1610535747592">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="931" height="261" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1610535747592" />
+    <state width="931" height="261" key="GridCell.Tab.0.left" timestamp="1610535747592">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="931" height="261" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1610535747592" />
+    <state width="931" height="261" key="GridCell.Tab.0.right" timestamp="1610535747592">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="931" height="261" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1610535747592" />
   </component>
 </project>
