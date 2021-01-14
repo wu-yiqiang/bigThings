@@ -1,5 +1,9 @@
 //导入加密库
 const bcrypt = require('bcryptjs')
+//jwt
+const jwt=require("jsonwebtoken")
+const config=require("../config")
+//数据库
 const db=require("../db/index")
 exports.regUser=(req,res)=>{
 	const userinfo=req.body
@@ -29,7 +33,6 @@ exports.regUser=(req,res)=>{
 			//注册用户成功
 			res.cc("注册成功",0)
 		})
-
 	})
 }
 
@@ -42,9 +45,18 @@ exports.login=(req,res)=>{
 		if(results.length!==1) return res.cc("登陆写入失败！！！")
 		const compareResult=bcrypt.compareSync(userinfo.password,results[0].password)
 		if(!compareResult) return  res.cc("登录失败!!!")
-		return res.cc("login ok")
+
+		//生成token
+
+		const user={username:results[0].username,password:"",user_pic:""}
+		const tokenStr=jwt.sign(user,config.jwtScretKey,{expiresIn:config.expiresIn})
+		res.send({
+			status:0,
+			massage:"登陆成功！！！",
+			token:"Bearer "+tokenStr
+		})
 	})
-
-
-
 }
+
+
+
